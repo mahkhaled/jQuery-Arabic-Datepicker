@@ -1,0 +1,12 @@
+jQuery Datepicker is a very useful and common-used javascript calendar. jQuery Datepicker supports many languages. I am adding here the localization file for Arabic/Egypt and suggest a little styling update.
+
+I am including here the new monthes names ('يناير', 'فبراير', 'مارس', ..etc). 
+Lets add more styling now. The day names min here in Arabic are wider than English day names
+['أحد', 'اثنين', 'ثلاثاء', 'أربعاء', 'خميس', 'جمعة', 'سبت']
+['Su','Mo','Tu','We','Th','Fr','Sa']
+So you may find the datepicker is overflowing its area. 
+We can fix this by updating its style in jquery-ui.custom.css line#510. We can increase the datepicker width from 17em to 20em
+
+.ui-datepicker { width: 20em; padding: .2em .2em 0; display: none; }
+<br>
+
